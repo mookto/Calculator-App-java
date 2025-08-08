@@ -24,7 +24,7 @@ pipeline {
 
         stage('Execute Tests') {
             steps {
-                sh '"mvn clean test"
+                sh "mvn clean test"
             }
         }
 
@@ -59,4 +59,5 @@ pipeline {
             echo 'Build succeeded!'
         }
     }
+}
 }
