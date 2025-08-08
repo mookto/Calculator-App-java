@@ -15,16 +15,16 @@ pipeline {
             }
         }
 
-        stage('Build Project') {
-            steps {
-                sh './gradlew clean build -x test'
-                // -x test means skip tests in this stage, since we run them separately
-            }
-        }
+//         stage('Build Project') {
+//             steps {
+//                 sh './gradlew clean build -x test'
+//                 // -x test means skip tests in this stage, since we run them separately
+//             }
+//         }
 
         stage('Execute Tests') {
             steps {
-                sh './gradlew test'
+                sh '"mvn clean test"
             }
         }
 
