@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'a69c19ca-d53c-4d7f-8ae5-358de7c377c8gt',
-                    url: 'https://github.com/mookto/HRMS_Software_BDD-With-Gradle.git'
+                    url: 'https://github.com/mookto/HRMS_Software_BDD-With-Maven.git'
             }
         }
 
