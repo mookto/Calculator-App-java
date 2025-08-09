@@ -11,7 +11,7 @@ public class Calculator extends JFrame implements ActionListener {
 
     public Calculator() {
         setTitle("Java Calculator");
-        setSize(500, 600);
+        setSize(500, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Center screen
         setLayout(new BorderLayout());
